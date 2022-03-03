@@ -55,7 +55,7 @@ inline size_t hash_val(const Types&... args){
 
 ## tuple
 
-![image-20220215162250878](D:\Data\OneDrive\C++\My_CPP_Road\STL源码剖析\image-20220215162250878.png)
+![image-20220215162250878](images/image-20220215162250878.png)
 
 上面的tail()中`*this`本来是一个`tuple<Head, Tail...>`型的指针，由于tuple的地址分布是tail在前，head在后，所以指向最尾的位置，将该指针转换为`tuple<Tail...>`型，相当于让这个指针解引用后只包括前面的`"nico"`和`6.3`，把`Head`型的41抛掉。
 

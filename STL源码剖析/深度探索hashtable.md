@@ -10,4 +10,4 @@ hashtable的iterator中有两个指针，分别为`node* cur`和`hashtable* ht`�
 
 在面对数值(unsigned int, unsigned short, unsigned long,...)时，GCC的hash函数就是把数值本身当成编号返回。
 
-![image-20220213144842763](D:\Data\OneDrive\C++\My_CPP_Road\STL源码剖析\image-20220213144842763.png)
+![image-20220213144842763](images/image-20220213144842763.png)
